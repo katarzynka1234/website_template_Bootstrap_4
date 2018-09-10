@@ -1,0 +1,18 @@
+.my-jumbotron {
+  background-image: url("../images/jumbotron/art-creative-creativity-5836.jpg");
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  overflow-x: hidden;
+}
+
+.my-jumbotron-slogan {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.my-jumbotron-text {
+  letter-spacing: 3.5px;
+}
+
+/*# sourceMappingURL=style.css.map */
