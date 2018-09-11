@@ -1,3 +1,14 @@
+$bostrap-warning-color: #ffc107;
+
+@mixin separator {
+    content: "";
+    display: block;
+    border: 1px solid $bostrap-warning-color;
+    width: 200px;
+    margin: 30px auto;
+
+    
+}
 .my-jumbotron {
     background-image: url('../images/jumbotron/art-creative-creativity-5836.jpg');
     max-width: 100%;
@@ -11,4 +22,27 @@
 }
 .my-jumbotron-text {
     letter-spacing: 3.5px;
+}
+
+.my-mission-heading::after {
+    @include separator;
+
+}
+
+.my-mission-icon-border {
+    width: 100px;
+    height: 100px;
+    border: 1px solid $bostrap-warning-color;
+    border-radius: 50%;
+    padding: 4px;
+    position: relative;
+}
+
+.my-mission-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 35px; 
+    color: $bostrap-warning-color;
 }
