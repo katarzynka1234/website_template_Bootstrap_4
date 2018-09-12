@@ -41,4 +41,43 @@
   color: #ffc107;
 }
 
+.my-projects-heading::after {
+  content: "";
+  display: block;
+  border: 1px solid #ffc107;
+  width: 200px;
+  margin: 30px auto;
+}
+
+.my-portfolio-box {
+  position: relative;
+  max-width: 700px;
+}
+
+.my-portfolio-box-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 65%;
+}
+
+.my-portfolio-img-overlay::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  content: "";
+  z-index: 0;
+  background: none repeat #6f42c1;
+  opacity: 0.6;
+}
+
+.my-portfolio-box-text-heading {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
