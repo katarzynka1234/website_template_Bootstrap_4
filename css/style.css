@@ -1,3 +1,4 @@
+/*!!! Add to class with pseudolement ::after !!! */
 .my-jumbotron {
   background-image: url("../images/jumbotron/art-creative-creativity-5836.jpg");
   max-width: 100%;
@@ -78,6 +79,14 @@
 .my-portfolio-box-text-heading {
   letter-spacing: 2px;
   margin-bottom: 10px;
+}
+
+.my-opinion-section-heading::after {
+  content: "";
+  display: block;
+  border: 1px solid #ffc107;
+  width: 200px;
+  margin: 30px auto;
 }
 
 /*# sourceMappingURL=style.css.map */

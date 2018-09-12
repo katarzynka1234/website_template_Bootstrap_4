@@ -1,5 +1,6 @@
 $bostrap-warning-color: #ffc107;
 
+/*!!! Add to class with pseudolement ::after !!! */
 @mixin separator {
     content: "";
     display: block;
@@ -75,4 +76,8 @@ $bostrap-warning-color: #ffc107;
 .my-portfolio-box-text-heading {
     letter-spacing: 2px;
     margin-bottom: 10px;
+}
+
+.my-opinion-section-heading::after {
+    @include separator;
 }
