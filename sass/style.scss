@@ -91,3 +91,48 @@ $bostrap-warning-color: #ffc107;
     height: 100px;
     object-fit: cover;
 }
+
+.separator-full-screen {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.separator-full-screen::before, .separator-full-screen::after {
+    content: "";
+    position: absolute;
+}
+
+.separator-full-screen::before {
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #F8C50A;
+    transform-origin: 100% 100%;
+    transform: rotate(-1deg);
+}
+
+.my-contact-title::after {
+    @include separator;    
+}
+
+.my-contact-box {
+    max-width: 700px;    
+    position: relative;
+}
+
+
+.my-contact-box-img-overlay::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    z-index: 0;
+    background: none repeat #6f42c1;
+    opacity: 0.6; 
+}
