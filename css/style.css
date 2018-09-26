@@ -97,4 +97,10 @@
   margin: 30px auto;
 }
 
+.my-team-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */

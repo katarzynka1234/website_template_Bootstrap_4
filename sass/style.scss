@@ -85,3 +85,9 @@ $bostrap-warning-color: #ffc107;
 .my-team-text::after {
     @include separator;
 }
+
+.my-team-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
