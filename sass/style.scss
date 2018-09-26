@@ -109,7 +109,7 @@ $bostrap-warning-color: #ffc107;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #F8C50A;
+    background: #ffc107;
     transform-origin: 100% 100%;
     transform: rotate(-1deg);
 }
@@ -135,4 +135,12 @@ $bostrap-warning-color: #ffc107;
     z-index: 0;
     background: none repeat #6f42c1;
     opacity: 0.6; 
+}
+
+.my-footer-header::after {
+    content: "";
+    display: block;
+    border: 1px solid #ffc107;
+    width: 100%;
+    margin: 5px 0 10px 0;
 }
