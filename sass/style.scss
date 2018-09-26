@@ -81,3 +81,7 @@ $bostrap-warning-color: #ffc107;
 .my-opinion-section-heading::after {
     @include separator;
 }
+
+.my-team-text::after {
+    @include separator;
+}

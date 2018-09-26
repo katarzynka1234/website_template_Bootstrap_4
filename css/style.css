@@ -89,4 +89,12 @@
   margin: 30px auto;
 }
 
+.my-team-text::after {
+  content: "";
+  display: block;
+  border: 1px solid #ffc107;
+  width: 200px;
+  margin: 30px auto;
+}
+
 /*# sourceMappingURL=style.css.map */
