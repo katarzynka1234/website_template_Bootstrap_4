@@ -6,10 +6,10 @@ $bostrap-warning-color: #ffc107;
     display: block;
     border: 1px solid $bostrap-warning-color;
     width: 200px;
-    margin: 30px auto;
-
-    
+    margin: 30px auto;    
 }
+
+
 .my-jumbotron {
     background-image: url('../images/jumbotron/art-creative-creativity-5836.jpg');
     max-width: 100%;
@@ -27,7 +27,6 @@ $bostrap-warning-color: #ffc107;
 
 .my-mission-heading::after {
     @include separator;
-
 }
 
 .my-mission-icon-border {
@@ -140,7 +139,12 @@ $bostrap-warning-color: #ffc107;
 .my-footer-header::after {
     content: "";
     display: block;
-    border: 1px solid #ffc107;
+    border: 1px solid $bostrap-warning-color;
     width: 100%;
     margin: 5px 0 10px 0;
+}
+
+.my-footer-section-website, .my-footer-section-website:hover  {
+    color: white;
+
 }
