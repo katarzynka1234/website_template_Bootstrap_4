@@ -100,7 +100,8 @@
 .my-team-img {
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .separator-full-screen {
@@ -162,5 +163,4 @@
 .my-footer-section-website, .my-footer-section-website:hover {
   color: white;
 }
-
 /*# sourceMappingURL=style.css.map */
